@@ -15,27 +15,34 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Slabo+27px" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
+
+    <!--jQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
     <script src="assets/app.js"></script>
 </head>
 <body>
     <div id="nav-container">
-        <div class="container">
+        <div class="container fixed-top">
             <div>
                 <ul class="nav-left">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a id="home-link" class="nav-link active" href="#home-page-section">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a id="about-link"class="nav-link" href="#about-me-section">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a id="skills-link" class="nav-link" href="#skills-section">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a id="portfolio-link" class="nav-link" href="#portfolio-section">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a id="contact-link" class="nav-link" href="#contact-section">Contact</a>
                     </li>
                 </ul>
                 <span>
@@ -72,7 +79,7 @@
                             
                             When I’m not coding, you’ll find me running, hiking, exploring the outdoors, or by the beach.<br><br>
                             
-                            Check out my <a href="#">resume</a> for relevant work experience or simply <a href="#">contact</a> me for more info.<br>
+                            Check out my <a href="#">resume</a> for relevant work experience or simply <a href="#contact-section">contact</a> me for more info.<br>
                     </p>
                 </div>    
                 <div class="col-6 text-center">
@@ -137,17 +144,23 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card bg-dark text-white">
-                        <img src="assets/images/Screen Shot 2019-02-16 at 1.53.23 PM.png" class="card-img" alt="Project 1">
+                        <a href="https://github.com/jenngoldman/Project-1">
+                            <img src="assets/images/Screen Shot 2019-02-16 at 1.53.23 PM.png" class="card-img" alt="Project 1">
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card bg-dark text-white">
-                        <img src="assets/images/Screen Shot 2019-02-16 at 1.54.13 PM.png" class="card-img" alt="Office Trivia">
+                        <a href="https://github.com/jenngoldman/Trivia-Game">
+                            <img src="assets/images/Screen Shot 2019-02-16 at 1.54.13 PM.png" class="card-img" alt="Office Trivia">
+                        </a>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="card bg-dark text-white">
-                        <img src="assets/images/Screen Shot 2019-02-16 at 1.54.43 PM.png" class="card-img" alt="Psychic Game">
+                        <a href="https://github.com/jenngoldman/Psychic-Game">
+                            <img src="assets/images/Screen Shot 2019-02-16 at 1.54.43 PM.png" class="card-img" alt="Psychic Game">
+                        </a>
                     </div>
                 </div>
             </div>

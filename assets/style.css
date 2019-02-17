@@ -22,7 +22,7 @@ body {
     color: white;
 }
 .nav-item > a:hover {
-    color: #5F8283;
+    color: #BCCECE;
 }
 
 #home-page-section, #about-me-section, #skills-section, #portfolio-section, #contact-section {
@@ -84,6 +84,10 @@ body {
 
 .card-text {
     list-style: none;
+}
+
+.card-img {
+    border: solid white 3px;
 }
 
 #portfolio-section {
