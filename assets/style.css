@@ -1,0 +1,108 @@
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+#nav-container {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-left, .nav-right {
+    padding: 0px;
+    list-style: none;
+    display: inline-flex;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-item > a:hover {
+    color: #5F8283;
+}
+
+#home-page-section, #about-me-section, #skills-section, #portfolio-section, #contact-section {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+#home-page-section {
+    background-image: url("images/ocean.jpg");
+    width: 100%;
+}
+
+.home-page-text-container {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    z-index: 1;
+}
+
+#about-me-section {
+    padding-top: 100px;
+    background-color:#5F8283;
+    color: white;
+}
+
+#about-me-img-container {
+    height: 350px;
+    overflow: hidden;
+}
+
+#about-me-text > a {
+    color: #BCCECE;
+    text-decoration: underline;
+}
+
+#about-me-text > a:hover {
+    color: #434446;
+}
+
+#about-me-img {
+    height: 350px;
+    border: solid white 2px
+}
+
+.h1-style {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#skills-section {
+    background-image: url("/assets/images/aleks-dahlberg-279463-unsplash.jpg");
+    padding-top: 100px;
+    background-color:#5F8283;
+}
+
+.card-text {
+    list-style: none;
+}
+
+#portfolio-section {
+    padding-top: 100px;
+    background-color: #434446;
+    color: white;
+}
+
+#contact-section {
+    background-image: url("/assets/images/aleks-dahlberg-282175-unsplash.jpg");
+    padding-top: 100px;
+    color: white;
+}
+
+.form-group > .btn {
+    text-align: right;
+}
+#submit-button {
+    background-color: #5F8283;
+    color: white;
+    padding: 10px 30px;
+}
