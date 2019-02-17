@@ -77,7 +77,7 @@ body {
 }
 
 #skills-section {
-    background-image: url("/assets/images/aleks-dahlberg-279463-unsplash.jpg");
+    background-image: url("images/aleks-dahlberg-279463-unsplash.jpg");
     padding-top: 100px;
     background-color:#5F8283;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 #contact-section {
-    background-image: url("/assets/images/aleks-dahlberg-282175-unsplash.jpg");
+    background-image: url("images/aleks-dahlberg-282175-unsplash.jpg");
     padding-top: 100px;
     color: white;
 }
